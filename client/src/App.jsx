@@ -6,8 +6,9 @@ import Signup from './pages/Signup'
 import TodoPage from './pages/TodoPage'
 import WeatherPage from './pages/WeatherPage'
 import Notes from './pages/Notes'
-import BudgetTraker from './pages/BudgetTraker'
+
 import Home from './pages/Home'
+import BudgetTracker from './pages/BudgetTracker'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         <Route path='/todopage' element={<TodoPage/>}/>
         <Route path='/weatherpage' element={<WeatherPage/>}/>
         <Route path='/notespage' element={<Notes/>}/>
-        <Route path='/budgettraker' element={<BudgetTraker/>}/>
+        <Route path='/budgettrackerpage' element={<BudgetTracker/>}/>
+  
       </Routes>
     <Footer/>
     </div>
